@@ -1,0 +1,62 @@
+{
+  "name": "com.meta.xr.sdk.platform",
+  "displayName": "Meta XR Platform SDK",
+  "version": "207.0.0",
+  "description": "Meta XR Platform SDK",
+  "samples": [
+    {
+      "displayName": "App Deep Linking",
+      "description": "Scenes that demonstrate how to launch other apps through the Platform SDK",
+      "path": "Samples~/AppDeepLink"
+    },
+    {
+      "displayName": "Entitlement Check",
+      "description": "Scenes that demonstrates performing an entitlement check for a user on an application",
+      "path": "Samples~/EntitlementCheck"
+    },
+    {
+      "displayName": "Group Presence",
+      "description": "Scenes that demonstrate group presence",
+      "path": "Samples~/GroupPresenceSample"
+    },
+    {
+      "displayName": "Leaderboards",
+      "description": "Scenes that demonstrate Leaderboards functionalities",
+      "path": "Samples~/LeaderboardSample"
+    },
+    {
+      "displayName": "Reporting Callback",
+      "description": "Scenes that demonstrate reporting callback",
+      "path": "Samples~/ReportingCallbackSample"
+    },
+    {
+      "displayName": "Simple Platform",
+      "description": "Scenes that demonstrate simple platform",
+      "path": "Samples~/SimplePlatformSample"
+    }
+  ],
+  "unity": "6000.0",
+  "unityRelease": "66f2",
+  "author": {
+    "name": "Meta Platforms, Inc.",
+    "url": "https://developers.meta.com/horizon/"
+  },
+  "licensesUrl": "https://developers.meta.com/horizon/licenses/oculussdk/",
+  "licenseMessage": "By adding or using this package you agree to the terms and conditions of the Meta Platforms Technologies SDK License Agreement: https://developer.oculus.com/licenses/oculussdk",
+  "keywords": [
+    "Oculus",
+    "SDK",
+    "Meta",
+    "Platform",
+    "XR",
+    "Quest"
+  ],
+  "dependencies": {
+    "com.unity.ugui": "1.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.inputsystem": "1.7.0"
+  },
+  "documentationUrl": "https://developer.oculus.com/documentation/unity/ps-platform-intro/",
+  "changelogUrl": "https://developer.oculus.com/downloads/package/meta-xr-platform-sdk/",
+  "_fingerprint": "1b765c01c84f78a158e9b17bdc92d43a7239569f"
+}

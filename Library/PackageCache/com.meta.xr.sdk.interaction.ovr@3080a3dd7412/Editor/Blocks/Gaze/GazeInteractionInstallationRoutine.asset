@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b6b2e6197d7d34e95a82ecc16b6259, type: 3}
+  m_Name: GazeInteractionInstallationRoutine
+  m_EditorClassIdentifier: 
+  id: aad04266-04a0-426d-a192-e8535ffd38c2
+  targetBlockDataId: 35d414fb-a907-4cb1-849e-fc7af7bca9ad
+  prefab: {fileID: 0}
+  packageDependencies: []
+  selectedGuidedSetupIndex: 0
+  guidedSetupName: 
+  variant: 1

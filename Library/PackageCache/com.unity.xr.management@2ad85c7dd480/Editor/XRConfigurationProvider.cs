@@ -1,0 +1,138 @@
+using System;
+using System.IO;
+using UnityEditor.PackageManager;
+using UnityEngine;
+using UnityEngine.UIElements;
+using UnityEditor.XR.Management.Metadata;
+
+namespace UnityEditor.XR.Management
+{
+    class XRConfigurationProvider : SettingsProvider
+    {
+        Type m_BuildDataType;
+        string m_BuildSettingsKey;
+        Editor m_CachedEditor;
+        SerializedObject m_SettingsWrapper;
+
+        public XRConfigurationProvider(
+            string path,
+            string buildSettingsKey,
+            Type buildDataType,
+            SettingsScope scopes = SettingsScope.Project)
+            : base(path, scopes)
+        {
+            m_BuildDataType = buildDataType;
+            m_BuildSettingsKey = buildSettingsKey;
+            if (currentSettings == null)
+            {
+                Create();
+            }
+        }
+
+        ScriptableObject currentSettings
+        {
+            get
+            {
+                EditorBuildSettings.TryGetConfigObject(m_BuildSettingsKey, out ScriptableObject settings);
+                if (settings == null)
+                {
+                    string searchText = $"t:{m_BuildDataType.Name}";
+                    string[] assets = AssetDatabase.FindAssets(searchText);
+                    foreach (var guid in assets)
+                    {
+                        string path = AssetDatabase.GUIDToAssetPath(guid);
+
+                        // Check if this asset is from an immutable package
+                        var packageInfo = PackageManager.PackageInfo.FindForAssetPath(path);
+                        if (packageInfo != null)
+                        {
+                            switch (packageInfo.source)
+                            {
+                                case PackageSource.Local:
+                                case PackageSource.Embedded:
+                                    // Do nothing, local and embedded packages can be edited
+                                    break;
+                                default:
+                                    continue;
+                            }
+                        }
+
+                        settings = AssetDatabase.LoadAssetAtPath(path, m_BuildDataType) as ScriptableObject;
+                        EditorBuildSettings.AddConfigObject(m_BuildSettingsKey, settings, true);
+
+                        break;
+                    }
+                }
+                return settings;
+            }
+        }
+
+        void InitEditorData(ScriptableObject settings)
+        {
+            if (settings != null)
+            {
+                m_SettingsWrapper = new SerializedObject(settings);
+                Editor.CreateCachedEditor(settings, null, ref m_CachedEditor);
+            }
+        }
+
+        public override void OnActivate(string searchContext, VisualElement rootElement)
+        {
+            InitEditorData(currentSettings);
+        }
+
+        public override void OnDeactivate()
+        {
+            if(m_CachedEditor != null)
+                UnityEngine.Object.DestroyImmediate(m_CachedEditor);
+            m_CachedEditor = null;
+            m_SettingsWrapper = null;
+        }
+
+        public override void OnGUI(string searchContext)
+        {
+            if (m_SettingsWrapper == null || m_SettingsWrapper.targetObject == null)
+            {
+                ScriptableObject settings = (currentSettings != null) ? currentSettings : Create();
+                InitEditorData(settings);
+            }
+
+            if (m_SettingsWrapper != null  && m_SettingsWrapper.targetObject != null && m_CachedEditor != null)
+            {
+                m_SettingsWrapper.Update();
+                m_CachedEditor.OnInspectorGUI();
+                m_SettingsWrapper.ApplyModifiedProperties();
+            }
+        }
+
+        ScriptableObject Create()
+        {
+            var settings = ScriptableObject.CreateInstance(m_BuildDataType);
+            if (settings != null)
+            {
+                string newAssetName = $"{EditorUtilities.TypeNameToString(m_BuildDataType)}.asset";
+                string assetPath = EditorUtilities.GetAssetPathForComponents(EditorUtilities.k_DefaultSettingsPath);
+                if (string.IsNullOrEmpty(assetPath))
+                {
+                    Debug.LogError("Invalid default settings path");
+                    return null;
+                }
+
+                assetPath = Path.Combine(assetPath, newAssetName);
+                AssetDatabase.CreateAsset(settings, assetPath);
+                AssetDatabase.SaveAssets();
+                EditorBuildSettings.AddConfigObject(m_BuildSettingsKey, settings, true);
+
+                // We delay this last piece of initialization logic so that our settings asset we just created can be found in the same frame.
+                EditorApplication.delayCall += () =>
+                {
+                    var package = XRPackageMetadataStore.GetPackageForSettingsTypeNamed(m_BuildDataType.FullName);
+                    package?.PopulateNewSettingsInstance(settings);
+                };
+
+                return settings;
+            }
+            return null;
+        }
+    }
+}

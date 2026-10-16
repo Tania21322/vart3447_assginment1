@@ -1,0 +1,200 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace UnityEditor.XR.Management.Metadata
+{
+    class KnownPackages
+    {
+#if UNITY_XR_VISIONOS_SUPPORTED
+        [XRCustomLoaderUI(k_VisionOSLoaderTypeName, BuildTargetGroup.VisionOS)]
+        class VisionOSCustomLoaderUI : IXRCustomLoaderUI
+        {
+            GUIContent m_LabelContent;
+
+            public bool IsLoaderEnabled { get; set; }
+            public string[] IncompatibleLoaders => Array.Empty<string>();
+            public float RequiredRenderHeight { get; private set; }
+            public BuildTargetGroup ActiveBuildTargetGroup { get; set; }
+
+            public void SetRenderedLineHeight(float height)
+            {
+                RequiredRenderHeight = height;
+            }
+
+            void SetUpLabelContentIfNeeded()
+            {
+                if (m_LabelContent != null)
+                    return;
+
+                var tooltip = UnityEditorInternal.InternalEditorUtility.HasPro() ? string.Empty : k_VisionOSLicenseTooltip;
+                m_LabelContent = new GUIContent(k_VisionOSLoaderName,  tooltip);
+            }
+
+            public void OnGUI(Rect rect)
+            {
+                SetUpLabelContentIfNeeded();
+                IsLoaderEnabled = EditorGUI.ToggleLeft(rect, m_LabelContent, IsLoaderEnabled);
+            }
+        }
+#endif
+
+        internal const string k_KnownPackageMockHmdLoader = "Unity.XR.MockHMD.MockHMDLoader";
+
+#if UNITY_XR_VISIONOS_SUPPORTED
+        const string k_VisionOSLoaderTypeName = "UnityEngine.XR.VisionOS.VisionOSLoader";
+        const string k_VisionOSLicenseTooltip = "Support for Fully Immersive (VR) applications on Apple visionOS requires a Unity Pro, Unity Enterprise, or Unity Industry license";
+        const string k_VisionOSLoaderName = "Apple visionOS";
+#endif
+
+        class KnownLoaderMetadata : IXRLoaderMetadata
+        {
+            public string loaderName { get; set; }
+            public string loaderType { get; set; }
+            public List<BuildTargetGroup> supportedBuildTargets { get; set; }
+        }
+
+        internal class KnownPackageMetadata : IXRPackageMetadata
+        {
+            public string packageName { get; set; }
+            public string packageId { get; set; }
+            public string settingsType { get; set; }
+            public List<IXRLoaderMetadata> loaderMetadata { get; set; }
+
+            public bool disabled { get; set; }
+        }
+
+        class KnownPackage : IXRPackage
+        {
+            public IXRPackageMetadata metadata { get; set; }
+            public bool PopulateNewSettingsInstance(ScriptableObject obj) { return true; }
+        }
+
+        static Lazy<List<IXRPackage>> s_KnownPackages = new(InitKnownPackages);
+
+        internal static List<IXRPackage> Packages => s_KnownPackages.Value;
+
+        static List<IXRPackage> InitKnownPackages()
+        {
+            var packages = new List<IXRPackage>();
+
+            packages.Add(new KnownPackage
+            {
+                metadata = new KnownPackageMetadata
+                {
+                    packageName = "OpenXR Plugin",
+                    packageId = "com.unity.xr.openxr",
+                    settingsType = "UnityEditor.XR.OpenXR.OpenXRPackageSettings",
+                    loaderMetadata = new List<IXRLoaderMetadata>
+                    {
+                        new KnownLoaderMetadata
+                        {
+                            loaderName = "OpenXR",
+                            loaderType = "UnityEngine.XR.OpenXR.OpenXRLoader",
+                            supportedBuildTargets = new List<BuildTargetGroup>
+                            {
+                                BuildTargetGroup.Standalone,
+#if !UNITY_6000_4_OR_NEWER
+                                BuildTargetGroup.WSA,
+#endif
+                                BuildTargetGroup.Android
+                            }
+                        },
+                    }
+                }
+            });
+
+            packages.Add(new KnownPackage
+            {
+                metadata = new KnownPackageMetadata
+                {
+                    packageName = "Google ARCore XR Plugin",
+                    packageId = "com.unity.xr.arcore",
+                    settingsType = "UnityEditor.XR.ARCore.ARCoreSettings",
+                    loaderMetadata = new List<IXRLoaderMetadata>
+                    {
+                        new KnownLoaderMetadata
+                        {
+                            loaderName = "Google ARCore",
+                            loaderType = "UnityEngine.XR.ARCore.ARCoreLoader",
+                            supportedBuildTargets = new List<BuildTargetGroup> {
+                                BuildTargetGroup.Android,
+                            }
+                        },
+                    }
+                }
+            });
+
+            packages.Add(new KnownPackage
+            {
+                metadata = new KnownPackageMetadata
+                {
+                    packageName = "Apple ARKit XR Plugin",
+                    packageId = "com.unity.xr.arkit",
+                    settingsType = "UnityEditor.XR.ARKit.ARKitSettings",
+                    loaderMetadata = new List<IXRLoaderMetadata>
+                    {
+                        new KnownLoaderMetadata
+                        {
+                            loaderName = "Apple ARKit",
+                            loaderType = "UnityEngine.XR.ARKit.ARKitLoader",
+                            supportedBuildTargets = new List<BuildTargetGroup>
+                            {
+                                BuildTargetGroup.iOS,
+                            }
+                        },
+                    }
+                }
+            });
+
+            packages.Add(new KnownPackage
+            {
+                metadata = new KnownPackageMetadata
+                {
+                    packageName = "MockHMD XR Plugin",
+                    packageId = "com.unity.xr.mock-hmd",
+                    settingsType = "Unity.XR.MockHMD.MockHMDBuildSettings",
+                    loaderMetadata = new List<IXRLoaderMetadata>
+                    {
+                        new KnownLoaderMetadata {
+                            loaderName = "Mock HMD",
+                            loaderType = k_KnownPackageMockHmdLoader,
+                            supportedBuildTargets = new List<BuildTargetGroup>
+                            {
+                                BuildTargetGroup.Standalone,
+                                BuildTargetGroup.Android
+                            }
+                        },
+                    }
+                }
+            });
+
+#if UNITY_XR_VISIONOS_SUPPORTED
+            packages.Add(
+                new KnownPackage
+                {
+                    metadata = new KnownPackageMetadata
+                    {
+                        packageName = "Apple visionOS XR Plugin",
+                        packageId = "com.unity.xr.visionos",
+                        settingsType = "UnityEditor.XR.VisionOS.VisionOSSettings",
+                        loaderMetadata = new List<IXRLoaderMetadata>
+                        {
+                            new KnownLoaderMetadata
+                            {
+                                loaderName = k_VisionOSLoaderName,
+                                loaderType = k_VisionOSLoaderTypeName,
+                                supportedBuildTargets = new List<BuildTargetGroup>
+                                {
+                                    BuildTargetGroup.VisionOS
+                                },
+                            },
+                        },
+                    disabled = !UnityEditorInternal.InternalEditorUtility.HasPro()
+                    }
+                });
+#endif
+            return packages;
+        }
+    }
+}

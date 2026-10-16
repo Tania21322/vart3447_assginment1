@@ -1,0 +1,35 @@
+{
+  "name": "com.unity.xr.management",
+  "displayName": "XR Plugin Management",
+  "version": "4.7.0",
+  "unity": "2022.3",
+  "description": "Package that provides simple management of XR plug-ins. Manages and offers help with loading, initialization, settings, and build support for XR plug-ins.",
+  "keywords": [
+    "xr",
+    "sdk",
+    "ar",
+    "vr",
+    "management",
+    "build",
+    "plugin"
+  ],
+  "dependencies": {
+    "com.unity.modules.subsystems": "1.0.0",
+    "com.unity.modules.xr": "1.0.0",
+    "com.unity.xr.core-utils": "2.2.1",
+    "com.unity.xr.legacyinputhelpers": "2.1.11"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git",
+    "type": "git",
+    "revision": "924815658ae35e3b28c9703786e0b9604811b135"
+  },
+  "_upm": {
+    "changelog": "### Deprecated\n\n- Deprecated and replaced the following APIs:\n  - `XRGeneralSettings.k_SettingsKey` with `XRGeneralSettings.settingsKey`\n  - `XRGeneralSettings.AssignedSettings` with `XRGeneralSettings.Manager`\n\n### Fixed\n\n- Fixed an issue so XR General Settings Per Build Target assets can now add build target settings from the inspector. The `BuildTargetProfile` and `XRGeneralSettings` serialized lists have been migrating to a new list that combines both values in a single struct.\n- Fixed static variables and delegates to reload to support Fast Enter Play Mode.\n- Fixed the merge behavior of [ManifestRequirement.OverrideElements](xref:Unity.XR.Management.AndroidManifest.Editor.ManifestRequirement.OverrideElements), as used by `IAndroidManifestRequirementProvider`:\n  - Elements with a `\"name\"` key only overwrite elements with a matching `\"name\"` key.\n  - Elements with conflicting true/false values for the `\"required\"` key resolve to `\"true\"`.\n  - Elements with conflicting values for the `\"version\"` key resolve to the highest provided version number.\n- Fixed usage of XRManagementAnalytics.s_Initialized outside of Editor."
+  },
+  "upmCi": {
+    "footprint": "5050fcf3040578e30057c2cd24afb9a3e662b926"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.management@4.7/manual/index.html",
+  "_fingerprint": "2ad85c7dd480d2c8bfb047d40fa76e0745f5128d"
+}

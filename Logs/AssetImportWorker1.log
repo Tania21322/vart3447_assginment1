@@ -1,0 +1,816 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-10-15T13:25:18.8022288Z"
+OS: 'Windows 11  (10.0.26300) Core' Language: 'en' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-15T13:25:18Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24632, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              e1366091ae1e4a8e9fb6000b348803a2
+  Correlation Id:          4b10571ec0e618b6f0804ccea9f2e25f
+  External correlation Id: 2980261323822436005
+  Machine Id:              hhVqQnGLFhCs1fCJT6J4axyzjcQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.01s, handshake: 0.14s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2026-10-15T13:25:18.9521668Z"
+[Licensing::Module] Licensing Background thread has ended after 0.15s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/User/VART3447
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+18165
+-licensingIpc
+LicenseClient-User
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/User/VART3447
+C:/Users/User/VART3447
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [17280]  Target information:
+
+Player connection [17280]  * "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 2734890493 [EditorId] 2734890493 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17280]  * "[IP] 192.168.50.152 [Port] 0 [Flags] 2 [Guid] 2734890493 [EditorId] 2734890493 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17280] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17280] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1375320118140-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 98.47 ms, found 20 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 2 native plugins for Editor in 5.22 ms.
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/VART3447/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7956 MB
+    Driver:   32.0.16.1742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.007723 seconds.
+- Loaded All Assemblies, in  1.045 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 559 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.781 seconds
+Domain Reload Profiling: 2817ms
+	BeginReloadAssembly (358ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (128ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (398ms)
+			TypeCache.Refresh (394ms)
+				TypeCache.ScanAssembly (369ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1782ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1645ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (783ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (231ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (202ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.296 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 40.15 ms, found 20 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 36.59 ms, found 20 plugins.
+I1015 21:25:29.234294 17280 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
+I1015 21:25:29.367103 17280 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+I1015 21:25:29.657765 17280 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
+I1015 21:25:30.275078 17280 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEditor.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs:314)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.BuildProfileUtility:InitializeMetaQuestSettings () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:48)
+UnityEditor.XR.OpenXR.BuildProfileUtility:OnLoad () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:19)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs line 314]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEditor.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs:314)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.BuildProfileUtility:InitializeMetaQuestSettings () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:48)
+UnityEditor.XR.OpenXR.BuildProfileUtility:OnLoad () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:19)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs line 314]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXRPackageSettings.asset
+Asset Pipeline Refresh (id=9b596e88fb10e424ca30ce1c55c1fb79): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEditor.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs:314)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.BuildProfileUtility:InitializeMetaQuestSettings () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:48)
+UnityEditor.XR.OpenXR.BuildProfileUtility:OnLoad () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:19)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs line 314]
+
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEditor.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs:314)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:275)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:FeatureSetInfosForBuildTarget (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:295)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup,UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal/AllFeatureInfo) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:351)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:345)
+UnityEditor.XR.OpenXR.BuildProfileUtility:InitializeMetaQuestSettings () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:48)
+UnityEditor.XR.OpenXR.BuildProfileUtility:OnLoad () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:19)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs line 314]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEditor.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs:314)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:275)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:FeatureSetInfosForBuildTarget (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:295)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup,UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal/AllFeatureInfo) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:351)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:345)
+UnityEditor.XR.OpenXR.BuildProfileUtility:InitializeMetaQuestSettings () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:48)
+UnityEditor.XR.OpenXR.BuildProfileUtility:OnLoad () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:19)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs line 314]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXRPackageSettings.asset
+Asset Pipeline Refresh (id=c05bd267bd828364b8452218b050516b): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEditor.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs:314)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:275)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:FeatureSetInfosForBuildTarget (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:295)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup,UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal/AllFeatureInfo) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:351)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:345)
+UnityEditor.XR.OpenXR.BuildProfileUtility:InitializeMetaQuestSettings () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:48)
+UnityEditor.XR.OpenXR.BuildProfileUtility:OnLoad () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:19)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs line 314]
+
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEditor.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs:314)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:275)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:FeatureSetInfosForBuildTarget (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:295)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup,UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal/AllFeatureInfo) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:351)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:345)
+UnityEditor.XR.OpenXR.BuildProfileUtility:InitializeMetaQuestSettings () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:48)
+UnityEditor.XR.OpenXR.BuildProfileUtility:OnLoad () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:19)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs line 314]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEditor.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs:314)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:275)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:FeatureSetInfosForBuildTarget (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:295)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup,UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal/AllFeatureInfo) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:351)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:345)
+UnityEditor.XR.OpenXR.BuildProfileUtility:InitializeMetaQuestSettings () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:48)
+UnityEditor.XR.OpenXR.BuildProfileUtility:OnLoad () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:19)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs line 314]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXRPackageSettings.asset
+Asset Pipeline Refresh (id=68125ab10a1dc3b4cada813d59d02d54): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEditor.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs:314)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:344)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets (bool) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:275)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:InitializeFeatureSets () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:190)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:FeatureSetInfosForBuildTarget (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:295)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup,UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal/AllFeatureInfo) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:351)
+UnityEditor.XR.OpenXR.Features.OpenXRFeatureSetManager:SetFeaturesFromEnabledFeatureSets (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/OpenXRFeatureSetManager.cs:345)
+UnityEditor.XR.OpenXR.BuildProfileUtility:InitializeMetaQuestSettings () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:48)
+UnityEditor.XR.OpenXR.BuildProfileUtility:OnLoad () (at ./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/BuildProfileUtility.cs:19)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/Editor/FeatureSupport/FeatureHelpers.cs line 314]
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  4.642 seconds
+Domain Reload Profiling: 6919ms
+	BeginReloadAssembly (397ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (1687ms)
+		LoadAssemblies (1084ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (833ms)
+			TypeCache.Refresh (558ms)
+				TypeCache.ScanAssembly (514ms)
+			BuildScriptInfoCaches (218ms)
+			ResolveRequiredComponents (48ms)
+	FinalizeReload (4642ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4124ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (439ms)
+			ProcessInitializeOnLoadAttributes (3085ms)
+			ProcessInitializeOnLoadMethodAttributes (559ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 54.41 ms, found 20 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+Unloading 116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9910 unused Assets / (30.3 MB). Loaded Objects now: 10617.
+Memory consumption went from 209.0 MB to 178.7 MB.
+Total: 43.748900 ms (FindLiveObjects: 1.089300 ms CreateObjectMapping: 1.164400 ms MarkObjects: 22.083200 ms  DeleteObjects: 19.409600 ms)
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.818 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 44.37 ms, found 20 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.64 ms, found 20 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.042 seconds
+Domain Reload Profiling: 3852ms
+	BeginReloadAssembly (523ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (110ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (1141ms)
+		LoadAssemblies (814ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (504ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (439ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (2043ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1670ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (364ms)
+			ProcessInitializeOnLoadAttributes (956ms)
+			ProcessInitializeOnLoadMethodAttributes (311ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 34.68 ms, found 20 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
+Unloading 116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9906 unused Assets / (29.6 MB). Loaded Objects now: 10634.
+Memory consumption went from 217.9 MB to 188.4 MB.
+Total: 33.311700 ms (FindLiveObjects: 1.419200 ms CreateObjectMapping: 1.061200 ms MarkObjects: 14.768900 ms  DeleteObjects: 16.060100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 192.94 ms, found 20 plugins.
+Preloading 2 native plugins for Editor in 0.55 ms.
+Unloading 118 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (18.6 MB). Loaded Objects now: 10636.
+Memory consumption went from 210.7 MB to 192.0 MB.
+Total: 44.844700 ms (FindLiveObjects: 1.078400 ms CreateObjectMapping: 0.954700 ms MarkObjects: 32.077400 ms  DeleteObjects: 10.730400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.623 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 34.13 ms, found 20 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 30.69 ms, found 20 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.751 seconds
+Domain Reload Profiling: 3367ms
+	BeginReloadAssembly (365ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (1092ms)
+		LoadAssemblies (792ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (453ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (394ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (1752ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (294ms)
+			ProcessInitializeOnLoadAttributes (867ms)
+			ProcessInitializeOnLoadMethodAttributes (261ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 36.61 ms, found 20 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Unloading 116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9905 unused Assets / (29.3 MB). Loaded Objects now: 10641.
+Memory consumption went from 218.0 MB to 188.6 MB.
+Total: 32.714700 ms (FindLiveObjects: 1.042800 ms CreateObjectMapping: 1.204900 ms MarkObjects: 13.850100 ms  DeleteObjects: 16.614700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 159.78 ms, found 20 plugins.
+Preloading 2 native plugins for Editor in 0.78 ms.
+Unloading 116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (18.6 MB). Loaded Objects now: 10641.
+Memory consumption went from 210.6 MB to 192.0 MB.
+Total: 33.273300 ms (FindLiveObjects: 1.099100 ms CreateObjectMapping: 0.929800 ms MarkObjects: 21.616500 ms  DeleteObjects: 9.624800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1539.158552 seconds.
+  path: Assets/XR/Settings/OpenXR Editor Settings.asset
+  artifactKey: Guid(e105a4c5736f57f4abc8b7a27f74dcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Editor Settings.asset using Guid(e105a4c5736f57f4abc8b7a27f74dcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45aca3dff66a31f22484454c49dc0fbb') in 0.0591424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.349170 seconds.
+  path: Assets/XR/Loaders/OpenXRLoader.asset
+  artifactKey: Guid(88b502fb4111b8140b2c0dac7d0553e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/OpenXRLoader.asset using Guid(88b502fb4111b8140b2c0dac7d0553e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7160158ec619fb7ec7829a9765c651b') in 0.0047152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.074960 seconds.
+  path: Assets/Resources/MetaXRAcousticSettings.asset
+  artifactKey: Guid(ebee0dd0446bd9645a123e27714f5805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/MetaXRAcousticSettings.asset using Guid(ebee0dd0446bd9645a123e27714f5805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fad736509ad7205f847ecb8eadf38c4') in 0.0033986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/OculusRuntimeSettings.asset
+  artifactKey: Guid(36c95ca2c9b4ae44791d6a459c6da795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OculusRuntimeSettings.asset using Guid(36c95ca2c9b4ae44791d6a459c6da795) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ce735ca5f1ffc15d08065f717d0d0c8') in 0.0024611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.354 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 36.80 ms, found 20 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 27.84 ms, found 20 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.620 seconds
+Domain Reload Profiling: 2968ms
+	BeginReloadAssembly (314ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (931ms)
+		LoadAssemblies (682ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (380ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (331ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1620ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (279ms)
+			ProcessInitializeOnLoadAttributes (760ms)
+			ProcessInitializeOnLoadMethodAttributes (262ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 30.67 ms, found 20 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9905 unused Assets / (29.8 MB). Loaded Objects now: 10649.
+Memory consumption went from 218.8 MB to 188.9 MB.
+Total: 27.113500 ms (FindLiveObjects: 1.167300 ms CreateObjectMapping: 0.940300 ms MarkObjects: 11.432100 ms  DeleteObjects: 13.571700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 36.04 ms, found 20 plugins.
+Preloading 2 native plugins for Editor in 0.37 ms.
+Unloading 116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (18.6 MB). Loaded Objects now: 10649.
+Memory consumption went from 211.4 MB to 192.8 MB.
+Total: 19.530100 ms (FindLiveObjects: 0.841300 ms CreateObjectMapping: 0.749500 ms MarkObjects: 12.673300 ms  DeleteObjects: 5.264700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.608 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 27.24 ms, found 20 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.80 ms, found 20 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.595 seconds
+Domain Reload Profiling: 3199ms
+	BeginReloadAssembly (445ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (116ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (1019ms)
+		LoadAssemblies (799ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (408ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (353ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1596ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1312ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (268ms)
+			ProcessInitializeOnLoadAttributes (771ms)
+			ProcessInitializeOnLoadMethodAttributes (239ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 36.48 ms, found 20 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9905 unused Assets / (30.2 MB). Loaded Objects now: 10654.
+Memory consumption went from 218.8 MB to 188.6 MB.
+Total: 31.306000 ms (FindLiveObjects: 1.046000 ms CreateObjectMapping: 0.941200 ms MarkObjects: 11.015400 ms  DeleteObjects: 18.301700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 39.76 ms, found 20 plugins.
+Preloading 2 native plugins for Editor in 0.26 ms.
+Unloading 116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (18.6 MB). Loaded Objects now: 10654.
+Memory consumption went from 211.5 MB to 192.9 MB.
+Total: 26.732800 ms (FindLiveObjects: 0.810900 ms CreateObjectMapping: 0.492600 ms MarkObjects: 17.943100 ms  DeleteObjects: 7.483800 ms)
+
+Prepare: number of updated asset objects reloaded= 0

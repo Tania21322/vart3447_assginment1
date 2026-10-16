@@ -1,0 +1,671 @@
+-target:library
+-out:"Library/Bee/artifacts/1300b0aE.dag/Oculus.Platform.dll"
+-refout:"Library/Bee/artifacts/1300b0aE.dag/Oculus.Platform.ref.dll"
+-define:UNITY_6000_3_10
+-define:UNITY_6000_3
+-define:UNITY_6000
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:UNITY_2023_1_OR_NEWER
+-define:UNITY_2023_2_OR_NEWER
+-define:UNITY_2023_3_OR_NEWER
+-define:UNITY_6000_0_OR_NEWER
+-define:UNITY_6000_1_OR_NEWER
+-define:UNITY_6000_2_OR_NEWER
+-define:UNITY_6000_3_OR_NEWER
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_AUDIO_SCRIPTABLE_PIPELINE
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_UNITY_CONSENT
+-define:ENABLE_UNITY_CLOUD_IDENTIFIERS
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_ENGINE_CODE_STRIPPING
+-define:ENABLE_ONSCREEN_KEYBOARD
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:ENABLE_MARSHALLING_TESTS
+-define:ENABLE_VIDEO
+-define:ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_ACCESSIBILITY_SCREEN_READER
+-define:ENABLE_ACCESSIBILITY_SETTINGS
+-define:TEXTCORE_1_0_OR_NEWER
+-define:EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED
+-define:PLATFORM_ANDROID
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS
+-define:ENABLE_FIREBASE_IDENTIFIERS
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:UNITY_HAS_GOOGLEVR
+-define:UNITY_HAS_TANGO
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_ETC_COMPRESSION
+-define:PLATFORM_EXTENDS_VULKAN_DEVICE
+-define:PLATFORM_HAS_MULTIPLE_SWAPCHAINS
+-define:UNITY_ANDROID_SUPPORTS_SHADOWFILES
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:PLATFORM_EXTENDS_VULKAN_PIPELINE_CACHE
+-define:PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS
+-define:PLATFORM_HAS_ADDITIONAL_API_CHECKS
+-define:PLATFORM_HAS_GRAPHICS_JOBS_SUPPORT_CHECK_OVERRIDE
+-define:PLATFORM_IMPLEMENTS_INSIGHTS_ANR
+-define:PLATFORM_SUPPORTS_INSIGHTS_DEVICE_INFO
+-define:ENABLE_ANDROID_ADVERTISING_IDS
+-define:PLATFORM_HAS_BUGGY_MSAA_RESOLVE
+-define:ENABLE_ANDROID_APP_SET_ID
+-define:ENABLE_INSIGHTS_PLATFORM_SPECIFIC_RESOURCES
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:NET_STANDARD_2_0
+-define:NET_STANDARD
+-define:NET_STANDARD_2_1
+-define:NETSTANDARD
+-define:NETSTANDARD2_1
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:TEXTCORE_FONT_ENGINE_1_6_OR_NEWER
+-define:OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_STICK_CONTROL_THUMBSTICKS
+-define:USING_XR_MANAGEMENT
+-define:USING_META_CORE_SDK_77_OR_NEWER
+-define:OVR_UNITY_PACKAGE_MANAGER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-define:UNITY_META_QUEST
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.AssetComplianceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreBusinessMetricsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.EmbreeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphicsStateCollectionSerializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.GridAndSnapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.HierarchyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.InAppPurchasingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.LevelPlayModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.MediaModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.MultiplayerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.PlayModeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SafeModeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderBuildSettingsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderCompilationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderFoundryModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SketchUpModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.TreeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIAutomationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIToolkitAuthoringModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.VectorGraphicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AdaptivePerformanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GraphicsStateCollectionSerializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.HierarchyCoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.IdentifiersModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputForUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InsightsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.MarshallingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.MultiplayerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsBackendPhysXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.RenderAs2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ShaderRuntimeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ShaderVariantAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConsentModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VectorGraphicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@e566cd3e7623/Lib/Editor/log4netPlastic.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@e566cd3e7623/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@e566cd3e7623/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@e566cd3e7623/Lib/Editor/unityplastic.dll"
+-r:"Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+-r:"Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.IO.Hashing/System.IO.Hashing.dll"
+-r:"Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll"
+-r:"Library/PackageCache/com.unity.ext.nunit@d8c07649098d/net40/unity-custom/nunit.framework.dll"
+-r:"Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll"
+-r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64/Runtime/Newtonsoft.Json.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@191c0d7e3b69/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Oculus.VR.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/AndroidClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/BuildingBlocks/EntitlementCheck/EntitlementCheck.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Callback.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/CallbackRunner.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Core.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Core/Error.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Core/ErrorInfo.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Core/Exception.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Core/Message.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Core/Message.Getters.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Core/Message.Types.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Core/Status.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/EventManager.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Extensions/BoolFromObjectConverter.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Extensions/DataArrayConverter.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Extensions/DeserializableListConverter.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Extensions/EnumArrayDescriptionConverter.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Extensions/EnumDescriptionConverter.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Extensions/EnumExtensions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Extensions/UInt64ArrayAsStringConverter.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Extensions/UInt64EmptyStringConverter.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Models/DeserializableList.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Models/PlatformInitialize.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Options/InitConfigOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/abuse_report/AbuseReportClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/abuse_report/Enums/AbuseReportType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/abuse_report/Enums/AbuseReportVideoMode.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/abuse_report/Enums/ReportRequestResponse.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/abuse_report/Models/LaunchReportFlowResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/abuse_report/Options/AbuseReportOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/abuse_report/Options/AdvancedAbuseReportOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/achievements/AchievementsClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/achievements/Enums/AchievementType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/achievements/Models/AchievementDefinition.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/achievements/Models/AchievementProgress.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/achievements/Models/AchievementUpdate.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/analytics/AnalyticsClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/analytics/Enums/AnalyticsMetricType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/analytics/Enums/AnalyticsSegmentEventType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/analytics/Enums/AnalyticsSegmentType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/analytics/Options/AnalyticsMetricEvent.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/analytics/Options/AnalyticsPosition.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/analytics/Options/AnalyticsSegmentEvent.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/analytics/Options/AnalyticsSettings.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/application/ApplicationClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/application/Enums/AppInstallResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/application/Enums/AppStatus.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/application/Models/AppDownloadProgressResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/application/Models/AppDownloadResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/application/Models/ApplicationVersion.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/application/Models/InstalledApplication.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/application/Options/ApplicationOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/application_lifecycle/ApplicationLifecycleClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/application_lifecycle/Enums/LaunchResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/application_lifecycle/Enums/LaunchType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/application_lifecycle/Models/LaunchDetails.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/asset_file/AssetFileClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/asset_file/Models/AssetDetails.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/asset_file/Models/AssetFileDeleteResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/asset_file/Models/AssetFileDownloadCancelResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/asset_file/Models/AssetFileDownloadResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/asset_file/Models/AssetFileDownloadUpdate.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/asset_file/Models/LanguagePackInfo.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/avatar/AvatarClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/avatar/Models/AvatarEditorResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/avatar/Options/AvatarEditorOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/challenges/ChallengesClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/challenges/Enums/ChallengeCreationType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/challenges/Enums/ChallengeViewerFilter.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/challenges/Enums/ChallengeVisibility.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/challenges/Models/Challenge.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/challenges/Models/ChallengeEntry.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/challenges/Options/ChallengeOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/consent/ConsentClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/consent/Enums/ConsentLaunchOutcome.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/consent/Enums/ConsentStatus.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/consent/Models/ConsentLaunchResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/consent/Models/ConsentStatusResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/device_application_integrity/DeviceApplicationIntegrityClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/entitlements/EntitlementsClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/graph_api/GraphAPIClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Enums/MultiplayerErrorErrorKey.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/GroupPresenceClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Models/ApplicationInvite.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Models/Destination.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Models/GroupPresenceJoinIntent.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Models/GroupPresenceLeaveIntent.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Models/InvitePanelResultInfo.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Models/LaunchInvitePanelFlowResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Models/RejoinDialogResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Models/SendInvitesResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Options/GroupPresenceOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Options/InviteOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Options/MultiplayerErrorOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/group_presence/Options/RosterOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/http/HttpClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/http/Models/HttpTransferUpdate.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/Enums/OfferTerm.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/Enums/OfferType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/Enums/ProductType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/IapClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/Models/BillingPlan.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/Models/ContentRating.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/Models/PaidOffer.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/Models/Price.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/Models/Product.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/Models/Purchase.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/Models/PurchaseItem.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/Models/PurchaseV0.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/iap/Models/TrialOffer.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/Enums/MetricType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/Enums/SegmentEventType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/Enums/SegmentType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/InAppAnalyticsClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/Models/EventCounterNames.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/Models/MetricEvent.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/Models/Position.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/Models/SegmentEvent.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/Models/SegmentSettings.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/Options/MetricEventInput.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/Options/PositionInput.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/Options/SegmentEventInput.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/in_app_analytics/Options/SegmentSettingsInput.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/language_pack/LanguagePackClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/leaderboards/Enums/LeaderboardFilterType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/leaderboards/Enums/LeaderboardStartAt.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/leaderboards/LeaderboardsClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/leaderboards/Models/Leaderboard.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/leaderboards/Models/LeaderboardEntry.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/leaderboards/Models/LeaderboardUpdateStatus.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/leaderboards/Models/SupplementaryMetric.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/livestreaming/Enums/LivestreamingAudience.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/livestreaming/Enums/LivestreamingMicrophoneStatus.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/livestreaming/Enums/LivestreamingStartStatus.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/livestreaming/LivestreamingClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/livestreaming/Models/LivestreamingApplicationStatus.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/livestreaming/Models/LivestreamingStartResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/livestreaming/Models/LivestreamingStatus.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/livestreaming/Models/LivestreamingVideoStats.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/media/Enums/MediaContentType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/media/Enums/ShareMediaStatus.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/media/MediaClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/media/Models/ShareMediaResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/net_sync/Enums/NetSyncConnectionStatus.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/net_sync/Enums/NetSyncDisconnectReason.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/net_sync/Enums/NetSyncVoipMicSource.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/net_sync/Enums/NetSyncVoipStreamMode.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/net_sync/Models/NetSyncConnection.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/net_sync/Models/NetSyncSession.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/net_sync/Models/NetSyncSessionsChangedNotification.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/net_sync/Models/NetSyncSetSessionPropertyResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/net_sync/Models/NetSyncVoipAttenuationValue.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/net_sync/NetSyncClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/net_sync/Options/NetSyncOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/net_sync/Options/NetSyncVector3.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/notifications/Enums/ActionDisplayType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/notifications/Enums/ActionIcon.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/notifications/NotificationsClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/notifications/Options/DeviceNotificationConfig.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/parties/Enums/PartyUpdateAction.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/parties/Models/Party.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/parties/Models/PartyID.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/parties/Models/PartyUpdateNotification.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/parties/PartiesClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/push_notification/Models/PushNotificationResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/push_notification/PushNotificationClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/rate_and_review/Models/ApplicationCanViewerRateAndReview.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/rate_and_review/RateAndReviewClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/rich_presence/Options/RichPresenceOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/rich_presence/RichPresenceClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/runtime_test/RuntimeTestClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/test_unreleased/Options/TestUnreleasedOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/test_unreleased/TestUnreleasedClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Enums/SdkAccountType.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Enums/ServiceProvider.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Enums/TimeWindow.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Enums/UserPresenceStatus.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/AbuseReportRecording.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/BlockedUser.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/LaunchAvacamSettingsResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/LaunchBlockFlowResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/LaunchFriendRequestFlowResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/LaunchUnblockFlowResult.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/LinkedAccount.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/ManagedInfo.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/OrgScopedID.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/SdkAccount.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/User.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/UserCapability.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/UserProof.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Models/UserReportID.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/Options/UserOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/users/UsersClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/user_age_category/Enums/AccountAgeCategory.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/user_age_category/Enums/AppAgeCategory.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/user_age_category/Models/UserAccountAgeCategory.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/user_age_category/UserAgeCategoryClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/user_data_store/Models/UserDataStoreUpdateResponse.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/user_data_store/UserDataStoreClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/voip/Enums/SystemVoipStatus.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/voip/Enums/VoipBitrate.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/voip/Enums/VoipDtxState.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/voip/Enums/VoipMuteState.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/voip/Enums/VoipSampleRate.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/voip/Models/MicrophoneAvailabilityState.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/voip/Models/SystemVoipState.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/voip/Options/VoipOptions.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Packages/voip/VoipClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/PackagesExtension/ApplicationLifecycleClientExtension.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/PackagesExtension/ClientExtensionUtils.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/PackagesExtension/EntitlementsClientExtension.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/PackagesExtension/UsersClientExtension.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/PackagesExtension/VoipClientExtension.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/PlatformClient.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/PlatformSettings.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/Request.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/StandalonePlatform.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/StandalonePlatformSettings.cs"
+"Library/PackageCache/com.meta.xr.sdk.platform@1b765c01c84f/Scripts/WindowsClient.cs"
+-langversion:9.0
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+-warn:0
+/additionalfile:"Library/Bee/artifacts/1300b0aE.dag/Oculus.Platform.UnityAdditionalFile.txt"

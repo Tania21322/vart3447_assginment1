@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82874db8faf1071438bbcf855a2e8a93, type: 3}
+  m_Name: FovSimulatorInspectedData
+  m_EditorClassIdentifier:
+  DisplayName: '[Meta] FoV Simulation'
+  InspectedMembers:
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 1
+      Category: FoV Simulator
+      Description:
+      DisplayName: Enabled
+    memberName: OverlayActive
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 65
+      Category: FoV Simulator
+      Description:
+      DisplayName: Top FOV
+    memberName: TopFovDegrees
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 65
+      Category: FoV Simulator
+      Description:
+      DisplayName: Bottom FOV
+    memberName: BottomFovDegrees
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 65
+      Category: FoV Simulator
+      Description:
+      DisplayName: Inner FOV
+    memberName: InnerFovDegrees
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 65
+      Category: FoV Simulator
+      Description:
+      DisplayName: Outer FOV
+    memberName: OuterFovDegrees
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 1
+      Category: FoV Simulator
+      Description:
+      DisplayName: Automatic IPD
+    memberName: AutoIpd
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 50
+      Max: 75
+      Category: FoV Simulator
+      Description:
+      DisplayName: IPD (mm)
+    memberName: Ipd
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 1
+      Category: FoV Simulator
+      Description:
+      DisplayName: Mask Alpha
+    memberName: Alpha
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 0.5
+      Category: FoV Simulator
+      Description:
+      DisplayName: Corner Radius
+    memberName: CornerRadius
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 1
+      Category: FoV Simulator
+      Description:
+      DisplayName: Outer Frame
+    memberName: OuterFrameEnabled
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 65
+      Category: FoV Simulator
+      Description:
+      DisplayName: Top FOV (outer frame)
+    memberName: TopOuterFrameDegrees
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 65
+      Category: FoV Simulator
+      Description:
+      DisplayName: Bottom FOV (outer frame)
+    memberName: BottomOuterFrameDegrees
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 65
+      Category: FoV Simulator
+      Description:
+      DisplayName: Inner FOV (outer frame)
+    memberName: InnerOuterFrameDegrees
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 1
+      Min: 0
+      Max: 65
+      Category: FoV Simulator
+      Description:
+      DisplayName: Outer FOV (outer frame)
+    memberName: OuterOuterFrameDegrees
+    _editorSelectedGizmoIndex: 0
+  - enabled: 1
+    typeName: Meta.XR.FovSimulator.FovSimulator, Meta.XR.FovSimulator
+    attribute:
+      GizmoType: 0
+      ShowGizmoByDefault: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Tweakable: 0
+      Min: 0
+      Max: 1
+      Category: FoV Simulator
+      Description:
+      DisplayName: Reset To Defaults
+    memberName: ResetToDefaults
+    _editorSelectedGizmoIndex: 0

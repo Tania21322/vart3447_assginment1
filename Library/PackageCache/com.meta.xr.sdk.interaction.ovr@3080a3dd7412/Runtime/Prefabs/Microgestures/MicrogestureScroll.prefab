@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &482094240851906647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1725301147741465097}
+  - component: {fileID: 4248727236628562440}
+  - component: {fileID: 885982724014683221}
+  - component: {fileID: 285765227403722979}
+  m_Layer: 0
+  m_Name: MicrogestureScroll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1725301147741465097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482094240851906647}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4248727236628562440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482094240851906647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683ba0f5cc344690bb409065da974ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactor: {fileID: 0}
+  _scrollSpeed: 2
+  _stopMomentumOnTargetChange: 0
+--- !u!114 &885982724014683221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482094240851906647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ad1841d31cfd844995732927b7c958, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hand: {fileID: 0}
+  GestureRecognizedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &285765227403722979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482094240851906647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e0f69dd04ac2440a08fa31c8d96f83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ovrMicrogestureEventSource: {fileID: 885982724014683221}
+  _whenTapCenter:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSwipeUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4248727236628562440}
+        m_TargetAssemblyTypeName: Oculus.Interaction.DiscreteScrollInputProvider,
+          Oculus.Interaction.OVR
+        m_MethodName: ScrollUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenSwipeDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4248727236628562440}
+        m_TargetAssemblyTypeName: Oculus.Interaction.DiscreteScrollInputProvider,
+          Oculus.Interaction.OVR
+        m_MethodName: ScrollDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenSwipeLeft:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4248727236628562440}
+        m_TargetAssemblyTypeName: Oculus.Interaction.DiscreteScrollInputProvider,
+          Oculus.Interaction.OVR
+        m_MethodName: ScrollLeft
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenSwipeRight:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4248727236628562440}
+        m_TargetAssemblyTypeName: Oculus.Interaction.DiscreteScrollInputProvider,
+          Oculus.Interaction.OVR
+        m_MethodName: ScrollRight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

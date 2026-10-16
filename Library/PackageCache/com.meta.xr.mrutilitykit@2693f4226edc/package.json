@@ -1,0 +1,33 @@
+{
+  "name": "com.meta.xr.mrutilitykit",
+  "displayName": "Meta MR Utility Kit",
+  "version": "207.0.0",
+  "description": "Helper tools & functions to simplify development with Scene API. Works on Mac & PC, without a device attached.",
+  "samples": [
+    {
+      "displayName": "Samples moved to GitHub",
+      "description": "Starting from v76 (March 2025), the samples have moved to GitHub.\n\nhttps://github.com/oculus-samples/Unity-MRUtilityKitSample",
+      "path": "Samples~/GitHub"
+    }
+  ],
+  "unity": "6000.0",
+  "unityRelease": "66f2",
+  "author": {
+    "name": "Meta Platforms, Inc.",
+    "url": "https://developer.oculus.com/"
+  },
+  "licensesUrl": "https://developers.meta.com/horizon/licenses/oculussdk/",
+  "licenseMessage": "By adding or using this package you agree to the terms and conditions of the Meta Platforms Technologies SDK License Agreement: https://developer.oculus.com/licenses/oculussdk",
+  "keywords": [
+    "Meta"
+  ],
+  "dependencies": {
+    "com.unity.ai.navigation": "1.1.4",
+    "com.unity.nuget.newtonsoft-json": "3.0.2",
+    "com.meta.xr.sdk.core": "207.0.0",
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "documentationUrl": "https://developer.oculus.com/documentation/unity/unity-mr-utility-kit-overview",
+  "changelogUrl": "https://developer.oculus.com/downloads/package/meta-xr-mr-utility-kit-upm/",
+  "_fingerprint": "2693f4226edcb37b69aebf9699f78cb1a6e7fdfe"
+}
