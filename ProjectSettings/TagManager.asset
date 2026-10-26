@@ -31,6 +31,7 @@ TagManager:
   - SamplesInfoPanel
   - QDSUIToggleCheckboxRadio
   - QDSUIToggleThumbnail
+  - Pouch
   layers:
   - Default
   - TransparentFX
@@ -62,7 +63,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - XR Simulation
   - 
   m_SortingLayers:
   - name: Default
