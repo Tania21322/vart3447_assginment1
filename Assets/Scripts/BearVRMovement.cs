@@ -11,6 +11,10 @@ public class BearVRMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 1.5f;
     [SerializeField] private float turnSpeed = 360f;
 
+    [Header("Walking audio")]
+    [SerializeField] private AudioSource walkingAudio;
+    [SerializeField] private float walkInputThreshold = 0.1f;
+
     [Header("Pouch bounce")]
     [SerializeField] private string pouchTag = "Pouch";
     [SerializeField] private float bounceImpulse = 2f;
@@ -51,6 +55,13 @@ public class BearVRMovement : MonoBehaviour
 
         if (pouchVisual != null)
             pouchOriginalScale = pouchVisual.localScale;
+
+        if (walkingAudio != null)
+        {
+            walkingAudio.playOnAwake = false;
+            walkingAudio.loop = true;
+            walkingAudio.Stop();
+        }
     }
 
     private void OnEnable()
@@ -63,6 +74,8 @@ public class BearVRMovement : MonoBehaviour
     {
         if (moveAction != null)
             moveAction.action.Disable();
+
+        SetWalkingAudio(false);
 
         if (pouchPulse != null)
         {
@@ -113,6 +126,7 @@ public class BearVRMovement : MonoBehaviour
         if (movementLockoutRemaining > 0f)
         {
             movementLockoutRemaining -= Time.fixedDeltaTime;
+            SetWalkingAudio(false);
             return;
         }
 
@@ -126,10 +140,32 @@ public class BearVRMovement : MonoBehaviour
         if (movement.sqrMagnitude > 1f)
             movement.Normalize();
 
+        // Play the loop while there is movement input.
+        bool isWalking =
+            movement.sqrMagnitude > walkInputThreshold * walkInputThreshold;
+
+        SetWalkingAudio(isWalking);
+
         Vector3 velocity = GetVelocity();
         velocity.x = movement.x * moveSpeed;
         velocity.z = movement.z * moveSpeed;
         SetVelocity(velocity);
+    }
+
+    private void SetWalkingAudio(bool shouldPlay)
+    {
+        if (walkingAudio == null || walkingAudio.clip == null)
+            return;
+
+        if (shouldPlay)
+        {
+            if (!walkingAudio.isPlaying)
+                walkingAudio.Play();
+        }
+        else if (walkingAudio.isPlaying)
+        {
+            walkingAudio.Stop();
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
